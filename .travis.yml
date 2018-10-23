@@ -3,3 +3,10 @@ node_js:
   - '8'
   - '6'
   - '4'
+  deploy:
+  provider: heroku
+  api_key:
+    secure: "ce804646-ad34-4ef1-851e-ca98a714188f"
+  app: ci-nodeapp
+  on:
+    repo: ankitbytecode/node-CI
